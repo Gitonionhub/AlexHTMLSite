@@ -1,0 +1,693 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+/* The basic Css*/
+body{
+   font-family: serif;
+   font: Georgia;
+}
+h1 {
+   color: blue;
+   font: Georgia;
+   background-color: lightgoldenrodyellow;
+   text-align: center;
+   border: 15px solid green;
+   padding: 10px;
+   margin: 10px;
+}
+h1:hover {
+   background-color: lightpink;
+   color: mediumorchid;
+   border: 15px solid skyblue;
+   transition-duration: 3s;
+}
+.subtitle1:hover {
+  color: slateblue;
+}
+
+.hrsize1 {
+  height: 200px;
+  color: white;
+}
+.hrsize2 {
+  height: 100px;
+}
+.tabcontent {
+  color: black;
+  padding: 100px 20px;
+  height: 100%;
+  display: none;
+  font-family: serif;
+  font: Georgia;
+}
+.tablink1 {
+  background-color: orange;
+  color: black;
+  float: left;
+  border: 10px;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 14px;
+  font-size: 17px;
+  width: 15%;
+  display: block;
+  font-family: serif;
+  font: Georgia;
+}
+
+.tablink2 {
+  background-color: red;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 14px;
+  font-size: 17px;
+  width: 15%;
+  font-family: serif;
+  font: Georgia;
+} 
+.tablink3 {
+  background-color: green;
+  color: black;
+  float: left;
+  border: 10px;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 14px;
+  font-size: 17px;
+  width: 20%;
+  font-family: serif;
+  font: Georgia;
+}
+
+.tablink4 {
+  background-color: blue;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 14px;
+  font-size: 17px;
+  width: 30%;
+  font-family: serif;
+  font: Georgia;
+} 
+.tablink5 {
+  background-color: rebeccapurple;
+  color: lightskyblue;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 14px;
+  font-size: 17px;
+  width: 20%;
+  font-family: serif;
+  font: Georgia;
+} 
+.tablink6 {
+  background-color: yellowgreen;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 14px;
+  font-size: 17px;
+  width: 20%;
+  font-family: serif;
+  font: Georgia;
+} 
+.tablink7 {
+  background-color: hotpink;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 14px;
+  font-size: 17px;
+  width: 20%;
+  font-family: serif;
+  font: Georgia;
+} 
+/* On hover... what to do? */
+.tablink1:hover {
+  background-color: rebeccapurple;
+  transition-duration: 3s;
+  background-color: orange;
+}
+
+.tablink2:hover {
+  background-color: blue;
+}
+
+.tablink3:hover {
+  background-color: aqua;
+}
+
+.tablink4:hover {
+  background-color: red;
+}
+.tablink5:hover {
+  background-color: orange;
+}
+
+#toc_container {
+    background: #42EADDFF none repeat scroll 0 0;
+    border: 2px solid #aaa;
+    border-color:green;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: 300px;
+    background-color: lightblue;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+    color:blue;
+    transition-duration: 5s;
+    transition-delay: 1s;
+}
+
+#toc_container:hover {
+  background-color: palegoldenrod;
+  transition-duration: 5s;
+}
+
+.goalheader {
+  color: lightseagreen;
+  font-size: 36px;
+  text-align: center;
+}
+.linkheader {
+  color: lightskyblue;
+  font-size: 36px;
+  text-align: center;
+}
+.linkheader2 {
+  color: forestgreen;
+  font-size: 36px;
+  text-align: center;
+}
+.imagecenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  border: 20px solid;
+  border-top-color: blue;
+  border-left-color: green;
+  border-right-color: red;
+  border-bottom-color: orange;
+}
+.imagecenter:hover{
+  border-top-color: pink;
+  border-left-color: rebeccapurple;
+  border-right-color: aquamarine;
+  border-bottom-color: lightcyan;
+}
+
+.imagecenter2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  border: 20px solid;
+  border-top-color: blue;
+  border-left-color: green;
+  border-right-color: red;
+  border-bottom-color: orange;
+  width: 25%;
+  height: 25%;
+}
+
+.imagecenter2:hover{
+  border-top-color: pink;
+  border-left-color: rebeccapurple;
+  border-right-color: aquamarine;
+  border-bottom-color: lightcyan;
+}
+
+.imagecenter3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  border: 20px solid;
+  border-top-color: blue;
+  border-left-color: green;
+  border-right-color: red;
+  border-bottom-color: orange;
+  width: 55%;
+  height: 55%;
+}
+
+.imagecenter3:hover{
+  border-top-color: pink;
+  border-left-color: rebeccapurple;
+  border-right-color: aquamarine;
+  border-bottom-color: lightcyan;
+}
+.citarumriver {
+  width: 40%;
+  height: 40%;
+    border: 10px solid #aaa;
+    border-top-color: green;
+    size: 10%;
+    border-bottom-color: red;
+    border-left-color: blue;
+    margin-left: 40px;
+    border-right-color: #80ffff;
+      border-radius: 10%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+          transition-delay: 1s;
+}
+.citarumriver:hover {
+    -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+      border-top-color: ;
+    border-bottom-color: red;
+    border-left-color: blue;
+    border-right-color: #80ffff;
+}
+.rivertext {
+  font-size: 20px;
+  color: red;
+  padding-top: 30px;
+}
+.rivertext2 {
+  font-size: 30px;
+  color: green;
+  padding-top:40px;
+  padding-bottom: 70px;
+}
+.goal6info {
+  font-size: 30px;
+  color: blue;
+}
+.goal14info {
+  font-size: 30px;
+  color: green;
+}
+/* Table settings*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+td {
+  font-size: 25px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.questions {
+  font-size: 35px;
+  text-align: center;
+  border: 3px solid;
+  border-color: blue;
+}
+
+.answerblue {
+  font-size: 25px;
+  text-align: left;
+  color: steelblue;
+}
+.answergreen{
+  font-size: 25px;
+  text-align: left;
+  color: darkolivegreen;
+}
+.panel{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+td:hover{
+  font-size: 150%;
+  color: dodgerblue;
+  transition-duration: 1s;
+}
+
+.tablink5point1 {
+  color: orangered;
+  float: center;
+  cursor: pointer;
+  font-size: 17px;
+  font-family: serif;
+  font: Georgia;
+}
+
+.donation-container {
+  height: 400px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.donation-box {
+  width: 390px;
+  height: 386px;
+  background-color: #F5F5F5;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.15s ease-out;
+}
+
+.donation-box .title {
+  background-color: #C1D82F;
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 15px;
+}
+
+.donation-box .donate-button {
+  background-color: #C1D82F;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  bottom: 0px;
+  position: absolute;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.donation-box .fields {
+  width: 59%;
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: 15px;
+}
+
+.donation-box .fields input {
+  width: 90%;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 4px;
+  border-width: 0px;
+  color: #5C5C5C;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-input-placeholder {
+   color: #cdcdcd;
+   font-size: 15px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #cdcdcd;
+   font-size: 15px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #cdcdcd;
+   font-size: 15px; 
+}
+
+:-ms-input-placeholder {  
+   color: #cdcdcd;
+   font-size: 15px;
+}
+
+.donation-box .amount {
+  width: 30%;
+  display: block;
+  position: absolute;
+  top: 60px;
+  right: 15px;
+}
+
+.donation-box .amount .button {
+  width: 100%;
+  background-color: gray;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  padding: 15px 0px 15px 0px;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+  
+  -webkit-transition: 400ms background-color;
+  -moz-transition: 800ms opacity, 800ms right;
+  -ms-transition: 800ms opacity, 800ms right;
+  -o-transition: 800ms opacity, 800ms right;
+  transition: 200ms background-color;
+}
+
+.donation-box .amount .button:hover {
+  background-color: #393939;
+}
+
+.donation-box .amount .button.selected {
+  background-color: #393939;
+}
+
+.donation-box .amount .button input {
+  min-width: 34px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  border-bottom: 2px dashed white;
+  -webkit-font-smoothing: antialiased;
+  
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.set-amount {
+  max-width: 96px;
+}
+
+.switch {
+  position: absolute;
+  top: 190px;
+  left: 15px;
+  margin: 20px auto;
+  height: 26px;
+  width: 58.5%;
+  background: white;
+  border-radius: 3px;
+}
+
+.switch-label {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 49%;
+  line-height: 26px;
+  font-size: 11px;
+  color: #5C5C5C;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+.switch-label:active {
+  font-weight: bold;
+}
+
+.switch-label-off {
+  padding-left: 2px;
+}
+
+.switch-label-on {
+  padding-right: 2px;
+}
+
+.switch-input {
+  display: none;
+}
+.switch-input:checked + .switch-label {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.65);
+  transition: 0.15s ease-out;
+}
+.switch-input:checked + .switch-label-on ~ .switch-selection {
+  left: 114px;
+}
+
+.switch-selection {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 2px;
+  width: 49%;
+  height: 22px;
+  background: #65bd63;
+  border-radius: 3px;
+  background-color: #C1D82F;
+  transition: left 0.15s ease-out;
+}
+
+.checkboxes {
+  position: absolute;
+  top: 242px;
+  left: 13px;
+}
+
+.checkboxes label {
+  position: relative;
+  top: -8px;
+  font-size: 13px;
+  color: gray;
+}
+
+.checkbox {
+  -webkit-appearance: none;
+  background-color: #fafafa;
+  border: 1px solid #C1D82F;
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.checkbox:checked {
+  background-color: #C1D82F;
+  border: 1px solid #C1D82F;
+  color: white;
+}
+
+.checkbox:checked:after {
+  content: '\2714';
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  color: white;
+}
+/* Import font*/
+@import url("https://fonts.googleapis.com/css?family=Catamaran:900&display=swap");
+
+
+.container2 {
+  margin: auto;
+}
+
+.Title {
+  font-family: "Catamaran", sans-serif;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+
+a {
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 3px 3px;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+   border: 3px solid blueviolet;
+   background-color: white;
+   transition-duration: 2s;
+}
+
+.linkfordonate {
+  font-size: 30px;
+  color: darkred;
+}
+/* From website, an animation (special squigly lines)*/
+.linkfordonate:hover{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+.linkfordonate2 {
+  font-size: 30px;
+  color: dodgerblue;
+}
+/* Copy from last animation*/
+.linkfordonate2:hover{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+.linkfordonate3 {
+  font-size: 30px;
+  color: forestgreen;
+}
+.linkfordonate3:hover{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+.linkfordonate4 {
+  font-size: 30px;
+  color: orangered;
+}
+.linkfordonate4:hover{
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+.Star {
+  font-size: 36px;
+}
+.npage {
+  margin-top: 1500px;
+  float: right;
+}
+.largelink {
+  font-size: 40px;
+  color: blue;
+}

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Water Pollution</title> 
+	<!-- A favicon is the thing to the left of the page name, the icon. -->
+	<link rel="icon"type="image/x-icon" href="favicon.ico">
+	<script src="AlexChen.js"></script>
+	<link rel="stylesheet" type="text/css" href="AlexChen.css"> </head>
+
+<body>
+	<h1 class = title1>Water Pollution</h1>
+	<h2 class = subtitle1>Looking at the goals 6.6 and 14.1, we will find that they have one main perpetrator in common. Water Pollution.</h2>
+	<p> Water pollution is making water undrinkable, usually because of human activities, which in most cases will affect other people. Water pollution reduces the ability of the body  of water to provide the ecosystem services that it would otherwise provide to us.</p>
+	 <!-- Interactive element : page background colour change. -->
+	<form name="changeColor"> 
+	<p><font size="2" face="Verdana,Arial,Helvetica,Sans Serif">Choose a Background Color.</font> <br> <br>
+	<input type="button" name="colr" value=" White " onclick="document.bgColor='#FFFFFF'"> 
+	<input type="button" name="colr" value=" Baby Blue " onclick="document.bgColor='#F0F8FF'"> 
+	<input type="button" name="colr" value=" Peach " onclick="document.bgColor='#FFCCCC'">
+	<input type="button" name="colr" value=" Grass Green " onclick="document.bgColor='#ccff99'">
+	<input type="button" name="colr" value=" Grey " onclick
+	="document.bgColor='#DCDCDC'">
+	<input type="button" name="colr" value=" Yellow "
+	onclick="document.bgColor='#FAFAD2'"> </p> </form>
+	 <!-- The "hook of the website" -->
+	<img src="citarumriver.jpeg" class="citarumriver" align="left">
+	<p class="rivertext"> This is the Citarum River in Indonesia. In the span of 1 year, the previously clean water became a garbage can in the ocean. Textile factories nearby dump their untreated waste into these waters. Half of ALL THE WASTE from Bandung and Jakarta are dumped into this river. The Citarum River also contains high levels of mercury, manganese, chromium, human waste, cadmium, and lead. </p>
+	<p class="rivertext2"> CONSEQUENCES could be dangerous to human life, causing issues such as Skin Cancer.</p> 
+
+	 <!-- The page choices -->
+	<button class="tablink1" onclick="openPage('Goal 6.6', this, 'orange')">Goal 6.6</button>
+	<button class="tablink2" onclick="openPage('Goal 14.1', this, 'red')">Goal 14.1</button>
+	<button class="tablink3" onclick="openPage('The Connection', this, 'green')">The Connection</button>
+	<button class="tablink4" onclick="openPage('Have Fun', this, 'blue')">FUN!</button>
+	<button class="tablink5" onclick="openPage('Donate', this, 'rebeccapurple')">DONATE</button>
+	 <!-- 1st goal page start -->
+	<div id="Goal 6.6" class="tabcontent">
+		<h2 class="goalheader">Goal 6.6</h2>
+		<img src = "wpoll3.jpeg" class="imagecenter2" align="right">
+		<p class="goal6info">The Un Defines Goal 6.6 as "Protect and restore water-related ecosystems, including mountains, forests, wetlands, rivers, aquifers and lakes." What that means is we want to protect all water bodies. If we look in detail, the UN defines the action item as "Change in the extent of water-related ecosystems over time". </p>
+		<!-- Simple table of contents -->
+		<div id="toc_container">
+			<p class="toc_title">Subpoints of this goal</p>
+			<ul class="toc_list">
+  			<li><a href="#Goal6P1">Tracking Change over time</a>
+			</li>
+			<li><a href="#Goal6P2">How do we protect ecosystems?</a></li>
+		</ul>
+	</div>
+	<h3 class="questions" id="Goal6P1">How do we track changes over time in water-related ecosystems?</h3>
+	<p>Three things are looked for : </p>
+	<table>
+		<tr>
+			<th>Space</th>
+			<th>How big is this pool of water?</th>
+			<th><img src="waterinpool.jpeg" width="20%"></th>
+		</tr>
+		<tr>
+			<th>Quantity</th>
+			<th>How much water is here?</th>
+			<th><img src="waterincup.png" width="20%"></th>
+		</tr>
+		<tr>
+			<th>Quality</th>
+			<th>How safe is the water? Is it safe to drink? Is it contaminated?</th>
+			<th><img src="dirtywater.jpeg" width="20%"></th>
+		</tr>
+	</table>
+	<p class="answergreen">Especially Quality! A lot of people in the world still don't have clean water!</p>
+	<!-- Embed for our world in data -->
+	<iframe src="https://ourworldindata.org/grapher/access-drinking-water-stacked?time=latest&country=OWID_WRL~Low+income~Upper-middle+income~High+income~Lower-middle+income~Sub-Saharan+Africa~Central+and+Southern+Asia~North+America+and+Europe~Latin+America+and+the+Caribbean~Western+Asia+and+Northern+Africa" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+	<h3 class="questions" id="Goal6P2">How can we protect water-related ecosystems?</h3>
+	<a href="https://www.wwf.org.uk/what-we-do/protecting-our-rivers-lakes-and-freshwater" class="linkfordonate4" target="_blank">It's hard for each of us to really impact the protecting or restoring of water ecosystems. However, big organizations can really make an impact. For example, the WWF do great projects all around the world (click here).</a>
+	<h3 class="questions"> Here are some ideas for how to help</h3>
+	<a href="https://www.mad-river.com/blog/9-ways-you-can-help-save-the-rivers/" class="linkfordonate" target="_blank">Idea 1</a>
+	<hr>
+	<a href="https://www.inaraft.com/blog/7-ways-help-protect-rivers/" class="linkfordonate2" target="_blank">Idea 2</a>
+	<hr>
+	<a href="https://www.friendsoftheriver.org/2016/01/28/551/" class="linkfordonate3" target="_blank">Idea 3 : 50 ways to help! Suggested :)</a>
+	<p class="answergreen">Got you thinking? Would you like to help? Click below.</p>
+	<!-- Jumps to Donate Section -->
+	<button class="tablink5point1" onclick="openPage('Donate', this,)">DONATE</button>
+	<h2>QUIZ for this section :)</h2>
+	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf5t3zviDATw1DFmkywqI5MrlyaV00ISInr_X_atWYe0aQmVA/viewform?embedded=true" width="640" height="1421" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+	</div>
+	 <!-- 2nd goal page start -->
+	<div id="Goal 14.1" class="tabcontent">
+		<h2 class="goalheader">Goal 14.1</h2>
+		<img src = "wpoll1.jpeg" class="imagecenter" align="right">
+		<p class="goal14info">The UN defines goal 14.1 as "Prevent and significantly reduce marine pollution of all kinds, in particular from land-based activities, including marine debris and nutrient pollution". Let us break this down into Marine Debris and Nutrient Pollution, and talk about these seperately.</p>
+			<!-- Second table of contents -->
+		<div id="toc_container">
+			<p class="toc_title">Subpoints of this goal</p>
+			<ul class="toc_list">
+  			<li><a href="#Goal14P1">Marine Debris</a>
+			</li>
+			<li><a href="#Goal14P2">Nutrient Pollution</a></li>
+		</ul>
+		</div>
+
+	<h3 class="questions" id="Goal14P1">What is Marine Debris?</h3>
+	<p class="answerblue"> Marine debris is defined as any solid material that is manufactured or processed and, intentionally or unintentionally, disposed of or abandoned into the marine environment or the Great Lakes.</p>
+	<h3> We can see below the main industries that cause so much debris;</h3>
+	<!-- Our world in data embed-->
+	<iframe src="https://ourworldindata.org/grapher/plastic-production-by-sector" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+	<h3 class="questions">Which items are found most in ocean cleanups and what amount was found?</h3>
+	<!-- Impactful use of a table, ranking things are always better done with a table.-->
+	<table>
+	  <tr>
+	    <th>Rank</th>
+	    <th>Item</th>
+	    <th>Amount</th>
+	  </tr>
+	  <tr>
+	    <td>1</td>
+	    <td>Cigarette Butts</td>
+	    <td>2, 412, 151</td>
+	  </tr>
+	  <tr>
+	    <td>2</td>
+	    <td>Food Wrappers</td>
+	    <td>1, 739, 743</td>
+	  </tr>
+	  <tr>
+	    <td>3</td>
+	    <td>Plastic Bottles</td>
+	    <td>1, 569, 135</td>
+ 	 </tr>
+ 	 <tr>
+ 	   <td>4</td>
+  	  <td>Plastic Bottle Caps</td>
+  	  <td>1, 091, 107</td>
+ 	 </tr>
+ 	 <tr>
+ 	   <td>5</td>
+ 	   <td>Grocery Bags</td>
+  	   <td>757, 523</td>
+ 	 </tr>
+ 	 <tr>
+    	<td>6</td>
+    	<td>Straws</td>
+    	<td>643, 562</td>
+	  </tr>
+	</table>
+	<p class="questions">What is the problem with Marine Debris?</p>
+	<p class="answerblue">There are a lot of possible problems. Let us look at the table below.</p>
+	<!-- Also to demonstrate importance levels tables are useful.-->
+	<table>
+	  <tr>
+	    <th>Importance</th>
+	    <th>Problem</th>
+	    <th>Importance?</th>
+	  </tr>
+	  <tr>
+	    <td>High</td>
+	    <td>Animal Deaths</td>
+	    <td>Animals are life, just like humans. Their way of life in the ocean is being impacted by us, some more than others. Where some may not be impacted, some animals in the ocean may die because of the pollution getting in their body.</td>
+	  </tr>
+	  <tr>
+	    <td>High</td>
+	    <td>Human Health and Safety</td>
+	    <td>Some marine animals that fisherman catch may have plastic inside them. If not properly taken care of, the humans that eventually eat the animal could develop severe ilnesses.</td>
+	  </tr>
+	  <tr>
+	    <td>Medium</td>
+	    <td>Navigational Hazards</td>
+	    <td>Every year, hundreds of small/medium boats get trapped in the water, unable to go forward because of all the plastic in the ocean in front of them, blocking the path. Sometimes, boats could even crash because they did not see the hazards.</td>
+ 	 </tr>
+ 	 <tr>
+ 	   <td>Medium</td>
+  	  <td>Quality of Life in Coastal Communities</td>
+  	  <td>If you live beside a body of water, some would be luckier than others. In some places, water is a beautiful thing, with light blue colours that are fascinating. Other times, you get a place where you can't even see the water because of all the plastic. This can also cause serious issues, such as these plastics making their way on land, or continaminating the otherwise drinkable water.</td>
+ 	 </tr>
+ 	 <tr>
+ 	   <td>Low</td>
+ 	   <td>Tourism</td>
+  	   <td>For some places, tourism is the only way they can keep the place in good shape. When plastic pollution gets to a place, it makes tourists not want to visit the place anymore! That could cause the whole place to fall apart, which could be dangerous!</td>
+ 	 </tr>
+	</table>
+	<!-- Direct link to the donate page. -->
+	<p class="answergreen">Got you thinking? Would you like to help? Click below.</p>
+	<!-- Easy jump to donate page. -->
+	<button class="tablink5point1" onclick="openPage('Donate', this,)">DONATE</button>
+	<h2 id="Goal14P2">Nutrient Pollution</h2>
+	<p class="answerblue"> Nutrient Pollution, unlike the section above is not caused by humans. However, it does have a huge impact and is something we could eliminate. Nutrient Pollution happens when a water gets too many nutrients, including nitrogen and phosphorus. This causes a huge growth in Algae. Algae blocks light that is needed for plants, such as seagrasses, to grow. That in turn can kill sea animals such as crabs.</p>
+	<img src="npoll.jpeg" class="imagecenter3">
+	<p class="answerblue">You can see here one such example of nutrient pollution. We see the huge growth in Algae, blocking the sunlight that is needed to let plants underneath the ocean live. If left untreated, the fish and other marine animals in this body of water will die because of the food supply slowly being eliminated.</p>
+
+	<h2>QUIZ for this section :)</h2>
+<!-- Google form Quiz -->
+	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeaY36ZOpI3vXFxoVocZO6YLtCn_I_Egovx7vxLRABx33QK_g/viewform?embedded=true" width="640" height="1356" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+	</div>
+	<!-- The link page start -->
+	<div id="The Connection" class="tabcontent">
+		<h2 class=linkheader2>Differences</h2>
+		<!-- Clear comparison between Differences/similarities-->
+		<table>
+			<tr>
+	    		<th>Link #</th>
+	    		<th>Whats the Difference?</th>
+	    		<th>What does that mean?</th>
+	  		</tr>
+	  		<tr>
+	    		<td>1</td>
+	    		<td>Who caused it?</td>
+	    		<td>While humans can play a part in achieving both goals, the cause of the goal being needed are different. In goal 6.6, the majority of the problem is because of the climate, not humans. As the goal action specifically mentions, <b>Change in Water-related ecosystems over time</b>. Of all the change that occurs, only a fraction will be due to humans. Other factors including climate change or invasive species could attribute to the majority of the change. However, exactly half of goal 14.1 is caused by humans. Marine Debris is caused almost entirely by humans. However, nutrient pollution is not! As you can/have read, Nutrient Pollution happens when a water gets too many nutrients. This is not caused by humans but by the enviorment itself. However, both these goals can be SOLVED by humans, using our own means of prevention and restoration.</td>
+	  		</tr>
+	  	</table>
+		<h2 class=linkheader>Similarities</h2>
+		<!-- Differences/Similarities-->
+		<table>
+			<tr>
+	    		<th>Link #</th>
+	    		<th>Whats the Similarity?</th>
+	    		<th>What does that mean?</th>
+	  		</tr>
+	  		<tr>
+	    		<td>1</td>
+	    		<td>Water Pollution</td>
+	    		<td>Water Pollution is the contamination of a previously fine water body with plants or pollutants. <br><br>Plants that are harmful include algae, which can seriously deteriorate a water-body as you can see in the earlier tabs pictures. The other method of water pollution is human caused, steming from waste that we produce (such as cigarette butts). <br><br>Interestingly, both these goals could be seriously progressed on if we just got rid of human water pollution. Half goal 6.6 would be solved, and goal 14.1 would only have to worry about the "restore" part and no longer protect. That is a very important tool we have to potentially solve these two goals. </td>
+	  		</tr>
+	  		<tr>
+	    		<td>2</td>
+	    		<td>Water-based</td>
+	    		<td>Goal 6.6 directly mentions protecting and restoring water-related ecosystems. The entire goal is focused around making sure the water bodies contain lots of clean water at all times. A water-body is seen as good if it is clean, if there is a lot of water insie, and if the water body is large. <br><br>Goal 14.1 on the other hand focuses on water pollution. As mentioned above, water pollution is the contamination of a water source with material that before would be drinkable clean water. While this is more specific (making sure the water body is clean), the goal is centered around water.<br><br>In some ways, we can see Goal 14.1 as a subset of Goal 6.6, containing similar information as one of the points in Goal 6.6 (clean water).
+	    	</td>
+	  		</tr>
+	  	</table>
+
+	</div>
+	<!-- Fun page -->
+	<div id="Have Fun" class="tabcontent">
+		<p class="answergreen">Quiz for goal 6.6</p>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf5t3zviDATw1DFmkywqI5MrlyaV00ISInr_X_atWYe0aQmVA/viewform?embedded=true" width="640" height="1421" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+		<p class="answerblue">Quiz for goal 14.1</p>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeaY36ZOpI3vXFxoVocZO6YLtCn_I_Egovx7vxLRABx33QK_g/viewform?embedded=true" width="640" height="1356" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+		<p class="questions">Quiz for EVERYTHING! [new]</p>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeoNTUYWiH3kYKUT-AwkkIWWdpy844stlunO1V9c4h4_pRNig/viewform?embedded=true" width="640" height="1768" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+		<!-- Embed another page-->
+		<p class="answerblue">A Climate word search!</p>
+		<iframe src="https://thewordsearch.com/puzzle/38536/environment/" target='_blank' height='800px' width='1000px'></iframe>
+		<hr>
+		<a href="https://www.ducksters.com/games/word_search/environmentalscience.php" class="largelink">Or play this word search!</a>
+		<p class="answerblue">Thats it for now!</p>
+	</div>
+	<!-- The Donate page -->
+	<div id="Donate" class="tabcontent">
+		<p class="goalheader">Donate</p>
+		<div class="donation-container">
+           	<!-- The donate page for this website.-->
+            <div class="donation-box">
+	            <div class="title">Donation Information</div>
+	            
+	            <div class="fields">
+		            <input type="text" id="firstName" placeholder="First Name"> </input>
+		            <input type="text" id="lastName" placeholder="Last Name"> </input>
+		            <input type="text" id="email" placeholder="Email"> </input>
+	            </div>
+	            
+	            <div class="amount">
+		            <div class="button" onclick="ChangeColour()" id="banana">$30</div>
+		            <div class="button">$50</div>
+		            <div class="button">$100</div>
+		            <div class="button">$<input type="text" class="set-amount" placeholder=""> </input></div>
+	            </div>
+	            
+	            <div class="switch">
+					<input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
+					<label for="one-time" class="switch-label switch-label-off">One-Time</label>
+					<input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
+					<label for="monthly" class="switch-label switch-label-on">Monthly</label>
+					<span class="switch-selection"></span>
+			    </div>
+			    
+			    <div class="checkboxes">
+					<input type="checkbox" id="receipt" class="checkbox" />
+					<label for="receipt">Email Me A Receipt</label>
+					<br />
+					<input type="checkbox" id="anon" class="checkbox" />
+					<label for="anon">Give Anonymously</label>
+					<br />
+					<input type="checkbox" id="list" class="checkbox" />
+					<label for="list">Add Me To Email List</label>
+			    </div>
+			    <div class="confirm">
+			    </div>
+	            <div class="donate-button"><i></i> Donate Now</div>
+            </div>
+        </div>
+       	<!-- Donate to other websites.-->
+        <p class="goalheader">Or... Donate to an established brand.</p>
+		<a href="https://theoceancleanup.com/donate/" class="linkfordonate" target="_blank">1) The Ocean Cleanup</a>
+		<hr>
+		<a href="https://www.pollutionprobe.org/donation/" class="linkfordonate2" target="_blank">2) Pollution Probe</a>
+		<hr>
+		<a href="https://thewaterproject.org/sponsor-a-water-project" class="linkfordonate3" target="_blank">3) The Water Project</a>
+		<span class="Star">&#11088;</span>
+	</div>
+</body>
+</html>
